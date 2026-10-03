@@ -1,0 +1,17 @@
+import java.util.scanner;
+public class VC{
+    Public static void main(String []  args)
+    {
+        Scanner sc = new sc (System.in);
+        System.out.println("enter any digit");
+        Char ch = sc.next().charAt(0);
+        if( ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' || ch=='A' || ch=='E' || Ch=='I' || Ch=='O' || ch=='U')
+        {
+            System.out.println("this is vowel");
+        }
+        else{
+            System.out.println("this is constant");
+        }
+    }
+}
+]
